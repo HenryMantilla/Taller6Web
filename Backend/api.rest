@@ -1,0 +1,25 @@
+###
+GET  http://localhost:3000/crud/documento
+
+###
+POST   http://localhost:3000/crud/documento
+Content-Type: application/json
+
+{
+    "nombre": "Cedula",
+    "descripcion": null
+}
+
+###
+GET  http://localhost:3000/crud/documento/
+
+###
+DELETE http://localhost:3000/crud/documento/
+
+###
+PUT http://localhost:3000/crud/documento/
+Content-Type: application/json
+
+{
+    "nombre": "Pasaporte"
+}
